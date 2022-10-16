@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
+    <title>Nigeria Air</title>
+</head>
+
+<body>
+    <header class="header container">
+        <nav class="nav">
+            <div class="nav__logo">
+                <img src="assets/logo.png" alt="">
+                <div>Nigeria <span>Air</span> </div>
+            </div>
+
+            <div class="nav__items">
+                <ul class="nav__items--links">
+                    <li class="nav__items--links__link"><a href="#">Explore</a></li>
+                    <li class="nav__items--links__link"><a href="#">Travel Info</a></li>
+                    <li class="nav__items--links__link"><a href="#">Air Miles</a></li>
+                    <li class="nav__items--links__link mobile">
+                        <button class="button primary">Log In</button>
+                        <button class="button secondary">join</button>
+                        </a>
+                    </li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" class="hidden remove">
+                        <path fill="green" fill-rule="evenodd"
+                            d="M17.925.747l2.828 2.828L13.328 11l7.425 7.425-2.828 2.828-7.425-7.425-7.425 7.425-2.828-2.828L7.671 11 .247 3.575 3.075.747 10.5 8.171 17.925.747z" />
+                    </svg>
+                </ul>
+
+                <div class="nav__items--buttons">
+                    <div class="nav__items--buttons__flag">
+                        <div class="fas fa-search search"></div>
+                        <img src="assets/nig.png" alt="">
+                        <div class="chevron">EN<i class="fas fa-chevron-down"></i> </div>
+                    </div>
+                    <div class="nav__items--buttons__btn desktop">
+                        <button class="button primary">Log In</button>
+                        <button class="button secondary">join</button>
+                    </div>
+                </div>
+            </div>
+            <svg class="svg-icon hidden show"
+                style="width: 1em; height: 1em;vertical-align: middle;fill: green;overflow: hidden;"
+                viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M916.6 210.2H107.4c-17.7 0-32-14.3-32-32s14.3-32 32-32h809.2c17.7 0 32 14.3 32 32s-14.3 32-32 32zM714.3 544H107.4c-17.7 0-32-14.3-32-32s14.3-32 32-32h606.9c17.7 0 32 14.3 32 32s-14.3 32-32 32zM916.6 877.8H107.4c-17.7 0-32-14.3-32-32s14.3-32 32-32h809.2c17.7 0 32 14.3 32 32s-14.3 32-32 32z" />
+            </svg>
+        </nav>
+    </header>
+
+    <section class="section section-a hero">
+        <div class="hero__greeting container">
+            <div class="hero__greeting__text">
+                <h1>
+                    Explore Nigeria With <br> Naija Air Miles Card.
+                </h1>
+                <p>The fastest way to travel with 50% off.</p>
+                <button class="button">learn more</button>
+            </div>
+
+            <div class="hero__img">
+                <img src="assets/flight.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="container section-b">
+        <div class="booking">
+            <div class="booking__agent">
+                <div class="icon">
+                    <i class="fas fa-plane"></i>
+                    <p>BOOK</p>
+                </div>
+                <img src="assets/book.png" alt="">
+            </div>
+
+
+            <div class="booking__form">
+                <div class="booking__form--options">
+                    <div class="option">
+                        <i class="fas fa-suitcase-rolling"></i>
+                        <p>Manage trips</p>
+                    </div>
+                    <div class="option">
+                        <i class="fas fa-check-to-slot"></i>
+                        <p>Check in</p>
+                    </div>
+                    <div class="option">
+                        <i class="fas fa-signal"></i>
+                        <p>flight stats</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="button secondary">Flight</button>
+                    <button class="button primary">Hotel</button>
+                    <button class="button primary">Car</button>
+                </div>
+                <form class="booking__form-control">
+                    <div class="form__group">
+                        <div class="">
+                            <label for="from">from</label>
+                            <input type="text" placeholder="New York">
+                        </div>
+                        <div class="">
+                            <label for="depart">depart</label>
+                            <input type="date">
+                        </div>
+                    </div>
+
+                    <div class="form__group">
+                        <div class="">
+                            <label for="to">to</label>
+                            <input type="text" placeholder="New York">
+                        </div>
+                        <div class="">
+                            <label for="return">return</label>
+                            <input type="date">
+                        </div>
+                    </div>
+                    <div class="form__group">
+                        <div class="">
+                            <label for="from">from</label>
+                            <select name="" id="">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </div>
+                        <button class="button secondary">Show flight <i class="fas fa-plane-departure"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-c container travel">
+        <div class="heading">
+            <h2>Start planning your next trip</h2>
+            <p>Thinking of travelling somewhere soon? Here are some good options to consider</p>
+        </div>
+
+        <div class="travel__options">
+            <div class="travel__options--full">
+                <div class="card">
+                    <img src="assets/dubai.jpg" alt="">
+                    <div class="card__body">
+                        <div class="card__text--top">
+                            <h1>Trip to Abuja</h1>
+                            <p>30 October 2022</p>
+                        </div>
+                        <div class="card__text--bottom">
+                            <p>Economy form</p>
+                            <h3>45, 000 NAIRA</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/lagos.jpg" alt="">
+                    <div class="card__body">
+                        <div class="card__text--top">
+                            <h1>Trip to Lagos</h1>
+                            <p>30 October 2022</p>
+                        </div>
+                        <div class="card__text--bottom">
+                            <p>Economy form</p>
+                            <h3>45, 000 NAIRA</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="travel__options--half">
+                <div class="card">
+                    <img src="assets/ghana.jpg" alt="">
+                    <div class="card__half--text">
+                        <h2>Trip to Ghana</h2>
+                        <button class="button primary">Learn more <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/kenya.jpg" alt="">
+                    <div class="card__half--text">
+                        <h2>Trip to Kenya</h2>
+                        <button class="button primary">Learn more <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section container about">
+        <div class="heading">
+            <h2>About Nigeria Air </h2>
+            <p>Let's travel around Nigeria together in an experience like never before</p>
+        </div>
+
+        <div class="about__section">
+            <div class="about__section--img">
+                <img src="assets/abt.jpg" alt="">
+                <button class="button primary">Learn more</button>
+                <p>Travelling around Nigeria made easy</p>
+            </div>
+
+            <div class="about__section--text">
+                <div class="heading">
+                    <h2>
+                        Nigeria Air
+                    </h2>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque nobis autem, culpa ullam maxime amet
+                    reprehenderit cum ducimus libero! Dolorum inventore quasi, harum soluta facere iure in nulla
+                    aspernatur iste. Incidunt doloribus modi aspernatur est? Voluptatum vero similique iusto rem?
+                </p>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates nostrum quasi facilis ipsa quam
+                    beatae consequatur cumque. Velit culpa dicta consectetur sint. Consectetur, deserunt. Consectetur
+                    dolores deleniti rem alias ea.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="sectoion-d">
+        <div class="container footer">
+            <div class="logo">
+                <img src="assets/logo.png" alt="">
+                <h3>Nigeria Air</h3>
+            </div>
+            <div class="footer__header">Company
+                <ul>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">about us</a></li>
+                </ul>
+            </div>
+            <div class="footer__header">support
+                <ul>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer__header">Contact
+                <ul>
+                    <li><a href="#">Benin Nigeria</a></li>
+                    <li><a href="#">nigeriaair@gmail.com</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__header">
+                <ul class="social">
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <p style="margin-top:60px; color: #fff; text-align:center"> Inspired by <a href="https://twitter.com/TeejayRx"
+                style="color: #fff; font-size:14px; text-transform:capitalize;text-decoration:none">TeejayRX</a></p>
+    </footer>
+
+    <script>
+        document.querySelector(".show").addEventListener("click", () => {
+            document.querySelector(".nav__items--links").classList.add("showMenu")
+        })
+
+        document.querySelector(".remove").addEventListener("click", () => {
+            document.querySelector(".nav__items--links").classList.remove("showMenu")
+        })
+    </script>
+</body>
+
+</html>
