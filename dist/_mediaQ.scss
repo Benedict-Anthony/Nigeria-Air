@@ -6,7 +6,7 @@
         font-size: 30px;
         cursor: pointer;
     }
-.header{
+.header{ 
 
     .nav{
         display: flex;
@@ -264,6 +264,7 @@
         padding: 0px;
         margin-top: 10px;
         position: relative;
+        display:none;
 
         img{
             width: 100%;
